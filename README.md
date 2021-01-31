@@ -4,15 +4,19 @@ A solution to build and deploy an api that initiates a game of war, and retrieve
 
 ## Environment set up
 
-1. Install project
+1. Install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+2. Set up [AWS-sdk w/Environment Variables](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node.html)
+3. Install project
 
 ```bash
+cd ./app
 npm install
-npm test
-```
 
-2. Install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-3. Set up [AWS-sdk w/Environment Variables](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node.html)
+#optional
+npm test
+
+cd ../terraform terraform init
+```
 
 ## Usage
 
