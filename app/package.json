@@ -1,0 +1,37 @@
+{
+  "name": "war",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyarnell/war.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyarnell/war/issues"
+  },
+  "homepage": "https://github.com/tyarnell/war#readme",
+  "dependencies": {
+    "aws-sdk": "^2.834.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "should": "^13.2.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.7"
+  }
+}
